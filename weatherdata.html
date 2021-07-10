@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Weather Data</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <img src="cloud2.png" alt="cloud" class="cloud">
+        <img src="sun.png" alt="cloud" class="cloud">
+        <h1 class="h-one">Weather data of cities</h1>
+        <img src="sun.png" alt="cloud" class="cloud">
+        <img src="cloud2.png" alt="cloud" class="cloud">
+    </div>
+    <section class="midbody">
+        <p class="introhead">Enter your city name in the box below to get the latest weather updates of that city</p>
+        <input type="text" placeholder="Enter city name" class="textcity" id="cityname"><br>
+        <button id="but1" onclick="fetchCity()">Fetch Data</button>
+    </section>
+    <section class="result">
+        <div class="data">
+            <h2 class="innerheader">Temperature</h2>
+            <div id="innerresult1"></div>
+        </div>
+        <div class="data">
+            <h2 class="innerheader">Weather</h2>
+            <div id="innerresult2"></div>
+        </div>
+        <div class="data">
+            <h2 class="innerheader">Humidity</h2>
+            <div id="innerresult3"></div>
+        </div>
+        <div class="data">
+            <h2 class="innerheader">Wind Speed</h2>
+            <div id="innerresult4"></div>
+        </div>
+    </section>
+    <footer class="footdown">
+        <h6>This application has been designed & developed by Shobhit Nair</h6>
+        <h6>© Shobhit Nair-2021</h6>
+    </footer>
+
+</body>
+
+<script src="script.js">
+</script>
+
+</html>

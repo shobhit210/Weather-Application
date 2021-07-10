@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather Sans', sans-serif;
+    /* background-image: linear-gradient(to bottom right, red, yellow); */
+}
+
+.navbar {
+    width: 100vw;
+    height: 15vh;
+    background-color: rgb(65, 206, 206);;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cloud {
+    width: 13vh;
+    height: 13vh;
+}
+
+.h-one {
+    font-size: 38px;
+    margin: 20px 0;
+    color: white;
+}
+
+.introhead{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 30px 0px;
+    letter-spacing: 4px;
+}
+
+.midbody{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid rgb(65, 206, 206);
+    border-radius: 20px;
+    margin: 10px 10px;
+}
+
+.textcity{
+    width: 30vw;
+    height: 50px;
+    padding-left: 15px;
+    margin: 15px 0px;
+    color: white;
+    font-size: 15px;
+    background-color: rgb(65, 206, 206);
+    border: 1px solid white;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+#but1{
+    background-color: rgb(65, 206, 206);
+    color: white;
+    padding: 10px 22px;
+    border-radius: 15px;
+    margin: 10px 0px;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 2px;
+    border: 2px solid rgb(65, 206, 206);
+    margin-bottom: 15px;
+}
+
+#but1:hover {
+    color: rgb(65, 206, 206);
+    background-color: white;
+    border: 2px solid rgb(65, 206, 206);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.result{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 5px solid rgb(65, 206, 206);
+    border-radius: 20px;
+    margin: 10px 10px;
+}
+
+.data{
+    width: 22vw;
+    height: 11vw;
+    background-color: rgb(65, 206, 206);
+    margin: 20px 0px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.innerheader{
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+#innerresult1, #innerresult2, #innerresult3, #innerresult4{
+    /* background-color: green; */
+    width: 70%;
+    height: 50%;
+    color: white;
+    position: relative;
+    top: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.footdown{
+    width: 100vw;
+    height: 7vh;
+    padding: 0px 20px;
+    color: white;
+    background-color: rgb(65, 206, 206);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
